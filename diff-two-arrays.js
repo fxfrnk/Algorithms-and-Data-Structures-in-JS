@@ -1,6 +1,6 @@
 //Returns an array with any items unique to arr1 or arr2, i.e. items present in one array but not both.
 
-function diffArray(arr1, arr2) {
+function diffArray(arr1, arr2) {https://github.com/fxfrnk/Algorithms-and-Data-Structures-in-JS/blob/fxfrnk-algorithm-scripting-day1/Diff-two-arrays.js
   var newArr = [];
   newArr = arr1.filter(item => !arr2.includes(item))
   newArr = newArr.concat(arr2.filter(item => !arr1.includes(item)))
